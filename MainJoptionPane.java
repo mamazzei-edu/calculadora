@@ -1,7 +1,7 @@
 import javax.swing.JOptionPane;
 
 public class MainJoptionPane {
-
+// Mensagem para teste  
     public static void main(String[] args) {
         String stringEntrada= JOptionPane.showInputDialog("Entre com o valor para iniciar os cálculos");
         float valorInicial = Float.parseFloat(stringEntrada);
